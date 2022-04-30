@@ -1,0 +1,25 @@
+#container {
+  text-align: center;
+}
+
+#minutes {
+  height: 35px;
+  width: 100px;
+  margin: 0 10px 0 0;
+  border-radius: 4px;
+  text-align: center;
+}
+
+#start {
+  padding: 10px 20px;
+  background: green;
+  color: white;
+  height: 40px;
+  border: none;
+  border-bottom: 4px solid darkgreen;
+  border-radius: 4px;
+}
+
+#time {
+  font-size: 48px;
+}
