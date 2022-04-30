@@ -17,6 +17,7 @@
     var message, min, sec, timeDisplay;
 
     timeDisplay = document.getElementById('time');
+	respawnDisplay = document.getElementById('respawn');
 
     min = Math.floor(secondsRemaining / 60);
     sec = secondsRemaining - (min * 60);
@@ -53,6 +54,7 @@
     }
 	 if (secondsRemaining === 1739) {
       timeDisplay.style.color = 'black';
+	  respawnDisplay.innerHTML = '28:40';
     }
 	
 	//Timer War 28.4min
@@ -66,7 +68,8 @@
       timeDisplay.style.color = 'green';
     }
 	 if (secondsRemaining === 1719) {
-      timeDisplay.style.color = 'black';
+      timeDisplay.style.color = 'black'
+	  respawnDisplay.innerHTML = '28:20';;
     }
 	
 	//Timer War 28.2
@@ -81,6 +84,7 @@
     }
 	 if (secondsRemaining === 1699) {
       timeDisplay.style.color = 'black';
+	  respawnDisplay.innerHTML = '28:00';
     }
 	
 	//Timer War 28
@@ -95,6 +99,7 @@
     }
 	 if (secondsRemaining === 1679) {
       timeDisplay.style.color = 'black';
+	  respawnDisplay.innerHTML = '27:40';
     }
 	
 	//Timer War 27.4
@@ -109,6 +114,7 @@
     }
 	 if (secondsRemaining === 1659) {
       timeDisplay.style.color = 'black';
+	  respawnDisplay.innerHTML = '27:20';
     }
 	
 	//Timer War 27.2
@@ -123,6 +129,7 @@
     }
 	 if (secondsRemaining === 1639) {
       timeDisplay.style.color = 'black';
+	  respawnDisplay.innerHTML = '27:00';
     }
 	
 	//Timer War 27
@@ -137,6 +144,7 @@
     }
 	 if (secondsRemaining === 1619) {
       timeDisplay.style.color = 'black';
+	  respawnDisplay.innerHTML = '26:40';
     }
 	
 	//Timer War 26.4
@@ -151,6 +159,7 @@
     }
 	 if (secondsRemaining === 1599) {
       timeDisplay.style.color = 'black';
+	  respawnDisplay.innerHTML = '26:20 > Shina tu es mauvais...';
     }
 	
 	//Timer War 26.2
@@ -165,6 +174,7 @@
     }
 	 if (secondsRemaining === 1579) {
       timeDisplay.style.color = 'black';
+	  respawnDisplay.innerHTML = '26:00';
     }
 	
 	
@@ -180,6 +190,7 @@
     }
 	 if (secondsRemaining === 1559) {
       timeDisplay.style.color = 'black';
+	  respawnDisplay.innerHTML = '25:40';
     }
 	
 	//Timer War 25.4
@@ -194,6 +205,7 @@
     }
 	 if (secondsRemaining === 1539) {
       timeDisplay.style.color = 'black';
+	  respawnDisplay.innerHTML = '25:20';
     }
 	
 	//Timer War 25.2
@@ -208,6 +220,7 @@
     }
 	 if (secondsRemaining === 1519) {
       timeDisplay.style.color = 'black';
+	  respawnDisplay.innerHTML = '24:50';
     }
 	
 	//Timer War 24.5
@@ -222,6 +235,7 @@
     }
 	 if (secondsRemaining === 1489) {
       timeDisplay.style.color = 'black';
+	  respawnDisplay.innerHTML = '24:24';
     }
 	
 	//Timer War 24.24
@@ -236,6 +250,7 @@
     }
 	 if (secondsRemaining === 1463) {
       timeDisplay.style.color = 'black';
+	  respawnDisplay.innerHTML = '23:56';
     }
 	
 	//Timer War 23.56
@@ -250,6 +265,7 @@
     }
 	 if (secondsRemaining === 1435) {
       timeDisplay.style.color = 'black';
+	  respawnDisplay.innerHTML = '23:28';
     }
 	
 	//Timer War 23.28
@@ -264,6 +280,7 @@
     }
 	 if (secondsRemaining === 1407) {
       timeDisplay.style.color = 'black';
+	  respawnDisplay.innerHTML = '23:00';
     }
 	
 	//Timer War 23
@@ -278,6 +295,7 @@
     }
 	 if (secondsRemaining === 1379) {
       timeDisplay.style.color = 'black';
+	  respawnDisplay.innerHTML = '22:30';
     }
 	
 	//Timer War 22.3
@@ -292,6 +310,7 @@
     }
 	 if (secondsRemaining === 1349) {
       timeDisplay.style.color = 'black';
+	  respawnDisplay.innerHTML = '22:00';
     }
 	
 	//Timer War 22
@@ -306,6 +325,7 @@
     }
 	 if (secondsRemaining === 1319) {
       timeDisplay.style.color = 'black';
+	  respawnDisplay.innerHTML = '21:30';
     }
 	
 	//Timer War 21.3
@@ -320,6 +340,7 @@
     }
 	 if (secondsRemaining === 1289) {
       timeDisplay.style.color = 'black';
+	  respawnDisplay.innerHTML = '21:08';
     }
 	
 	//Timer War 21.08
@@ -334,6 +355,7 @@
     }
 	 if (secondsRemaining === 1267) {
       timeDisplay.style.color = 'black';
+	  respawnDisplay.innerHTML = '20:38';
     }
 	
 	//Timer War 20.38
@@ -348,6 +370,7 @@
     }
 	 if (secondsRemaining === 1237) {
       timeDisplay.style.color = 'black';
+	  respawnDisplay.innerHTML = '20:10';
     }
 	
 	//Timer War 20.10
@@ -362,6 +385,7 @@
     }
 	 if (secondsRemaining === 1209) {
       timeDisplay.style.color = 'black';
+	  respawnDisplay.innerHTML = '19:50';
     }
 	
 	//Timer War 19.5
@@ -376,6 +400,7 @@
     }
 	 if (secondsRemaining === 1185) {
       timeDisplay.style.color = 'black';
+	  respawnDisplay.innerHTML = '19:07';
     }
 	
 	//Timer War 19.07
@@ -390,6 +415,7 @@
     }
 	 if (secondsRemaining === 1146) {
       timeDisplay.style.color = 'black';
+	  respawnDisplay.innerHTML = '18:30';
     }
 	
 	//Timer War 18.3
@@ -404,6 +430,7 @@
     }
 	 if (secondsRemaining === 1109) {
       timeDisplay.style.color = 'black';
+	  respawnDisplay.innerHTML = '18:00';
     }
 	
 	//Timer War 18
@@ -418,6 +445,7 @@
     }
 	 if (secondsRemaining === 1079) {
       timeDisplay.style.color = 'black';
+	  respawnDisplay.innerHTML = '17:20';
     }
 	
 	//Timer War 17,2
@@ -432,6 +460,7 @@
     }
 	 if (secondsRemaining === 1039) {
       timeDisplay.style.color = 'black';
+	  respawnDisplay.innerHTML = '16:43';
     }
 	
 	
@@ -447,6 +476,7 @@
     }
 	 if (secondsRemaining === 1002) {
       timeDisplay.style.color = 'black';
+	  respawnDisplay.innerHTML = '16:07';
     }
 	
 	//Timer War 16.07
@@ -461,6 +491,7 @@
     }
 	 if (secondsRemaining === 966) {
       timeDisplay.style.color = 'black';
+	  respawnDisplay.innerHTML = '15:30';
     }
 	
 	//Timer War 15.3
@@ -475,6 +506,7 @@
     }
 	 if (secondsRemaining === 929) {
       timeDisplay.style.color = 'black';
+	  respawnDisplay.innerHTML = '14:55';
     }
 	
 	//Timer War 14.55
@@ -489,6 +521,7 @@
     }
 	 if (secondsRemaining === 894) {
       timeDisplay.style.color = 'black';
+	  respawnDisplay.innerHTML = '14:20';
     }
 	
 	//Timer War 14.2
@@ -503,6 +536,7 @@
     }
 	 if (secondsRemaining === 859) {
       timeDisplay.style.color = 'black';
+	  respawnDisplay.innerHTML = '13:51';
     }
 	
 	//Timer War 13.51
@@ -517,6 +551,7 @@
     }
 	 if (secondsRemaining === 830) {
       timeDisplay.style.color = 'black';
+	  respawnDisplay.innerHTML = '13:35';
     }
 	
 	//Timer War 1335
@@ -531,6 +566,7 @@
     }
 	 if (secondsRemaining === 814) {
       timeDisplay.style.color = 'black';
+	  respawnDisplay.innerHTML = '12:50';
     }
 	
 	//Timer War 1250
@@ -545,6 +581,7 @@
     }
 	 if (secondsRemaining === 769) {
       timeDisplay.style.color = 'black';
+	  respawnDisplay.innerHTML = '12:06';
     }
 	
 	//Timer War 1206
@@ -559,6 +596,7 @@
     }
 	 if (secondsRemaining === 724) {
       timeDisplay.style.color = 'black';
+	  respawnDisplay.innerHTML = '11:24';
     }
 	
 	//Timer War 1124
@@ -573,6 +611,7 @@
     }
 	 if (secondsRemaining === 683) {
       timeDisplay.style.color = 'black';
+	  respawnDisplay.innerHTML = '10:40';
     }
 	
 	//Timer War 1040
@@ -587,6 +626,7 @@
     }
 	 if (secondsRemaining === 639) {
       timeDisplay.style.color = 'black';
+	  respawnDisplay.innerHTML = '09:55';
     }
 	
 	//Timer War 955
@@ -601,6 +641,7 @@
     }
 	 if (secondsRemaining === 594) {
       timeDisplay.style.color = 'black';
+	  respawnDisplay.innerHTML = '09:10';
     }
 	
 	//Timer War 9 10
@@ -615,6 +656,7 @@
     }
 	 if (secondsRemaining === 549) {
       timeDisplay.style.color = 'black';
+	  respawnDisplay.innerHTML = '08:19';
     }
 	
 	//Timer War 8 19
@@ -629,7 +671,9 @@
     }
 	 if (secondsRemaining === 498) {
       timeDisplay.style.color = 'black';
+	  respawnDisplay.innerHTML = '07:27';
     }
+	
 	
 	//Timer War 7 27
      if (secondsRemaining === 457) {
@@ -643,20 +687,7 @@
     }
 	 if (secondsRemaining === 446) {
       timeDisplay.style.color = 'black';
-    }
-	
-	//Timer War 7 27
-     if (secondsRemaining === 457) {
-      timeDisplay.style.color = 'red';
-    }
-	 if (secondsRemaining === 452) {
-      timeDisplay.style.color = 'orange';
-    }
-	 if (secondsRemaining === 447) {
-      timeDisplay.style.color = 'green';
-    }
-	 if (secondsRemaining === 446) {
-      timeDisplay.style.color = 'black';
+	  respawnDisplay.innerHTML = '06:34';
     }
 	
 	//Timer War 6 34
@@ -671,6 +702,7 @@
     }
 	 if (secondsRemaining === 393) {
       timeDisplay.style.color = 'black';
+	  respawnDisplay.innerHTML = '05:44';
     }
 	
 	//Timer War 5 44
@@ -685,6 +717,7 @@
     }
 	 if (secondsRemaining === 343) {
       timeDisplay.style.color = 'black';
+	  respawnDisplay.innerHTML = '04:50';
     }
 	
 	//Timer War 4 50
@@ -699,6 +732,7 @@
     }
 	 if (secondsRemaining === 289) {
       timeDisplay.style.color = 'black';
+	  respawnDisplay.innerHTML = '03:50';
     }
 	
 	//Timer War 4 50
@@ -713,6 +747,7 @@
     }
 	 if (secondsRemaining === 229) {
       timeDisplay.style.color = 'black';
+	  respawnDisplay.innerHTML = '02:50';
     }
 	
 	//Timer War 2 50
@@ -727,6 +762,7 @@
     }
 	 if (secondsRemaining === 169) {
       timeDisplay.style.color = 'black';
+	  respawnDisplay.innerHTML = '01:50';
     }
 	
 	//Timer War 1 50
@@ -741,6 +777,7 @@
     }
 	 if (secondsRemaining === 109) {
       timeDisplay.style.color = 'black';
+	  respawnDisplay.innerHTML = '00:50';
     }
 	
 		//Timer War 0 50
@@ -755,6 +792,7 @@
     }
 	 if (secondsRemaining === 49) {
       timeDisplay.style.color = 'black';
+	  respawnDisplay.innerHTML = 'GG';
     }
 	
 

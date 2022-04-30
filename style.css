@@ -2,6 +2,7 @@
   text-align: center;
 }
 
+
 #minutes {
   height: 35px;
   width: 100px;
@@ -22,4 +23,8 @@
 
 #time {
   font-size: 48px;
+}
+
+#respawn {
+  font-size: 12px;
 }
