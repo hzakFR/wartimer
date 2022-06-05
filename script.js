@@ -43,6 +43,11 @@
       alert('WAR is DONE');
     }
 
+//Timer War 29min
+     if (secondsRemaining === 1799) {
+     responsiveVoice.speak('War is starting now. Good luck everyone'); 
+		
+    }
 	//Timer War 29min
      if (secondsRemaining === 1750) {
       timeDisplay.style.color = 'red';  responsiveVoice.speak('10 seconds'); 
